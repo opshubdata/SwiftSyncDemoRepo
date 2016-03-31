@@ -7,7 +7,7 @@ public class TestConnectivity {
 	public static void main(String[] args) {
 		String host = args[0];
 		int port = Integer.valueOf(args[1]);
-		//Command to Run this program: >java.exe -cp . Test
+		//Command to Run this program: > java.exe -cp . Test
 		System.out.println(pingHost(host, port, 1000));
 	}
 	public static boolean pingHost(String host, int port, int timeout) {
