@@ -16,7 +16,7 @@ public class TestConnectivity {
 	        return true;
 	    } catch (IOException e) {
 	    	e.printStackTrace();
-	        return false; // Either timeout or unreachable or failed DNS lookup.
+	        return false; // Either time out or unreachable or failed DNS lookup.
 	    }
 	}
 }
