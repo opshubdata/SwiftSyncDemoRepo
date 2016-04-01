@@ -3,7 +3,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 
 //This is to check whether java is able to connect to the host or not.  
-//Commit for dmeo dry run
+//Commit for demo dry run
 public class TestConnectivity {
 	public static void main(String[] args) {
 		String host = args[0];
